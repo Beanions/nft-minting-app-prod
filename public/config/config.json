@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x136d904C11288e2f58252E73f1199BC511986631",
+  "SCAN_LINK": "https://polygonscan.com/address/0x136d904C11288e2f58252E73f1199BC511986631",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Beanions NFT",
+  "SYMBOL": "BEAN",
+  "MAX_SUPPLY": 8888,
+  "WEI_COST": 100000000000000000,
+  "DISPLAY_COST": 0.1,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/beanionsnft",
+  "SHOW_BACKGROUND": true
+}
