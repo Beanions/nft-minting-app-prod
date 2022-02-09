@@ -127,7 +127,7 @@ function App() {
     let totalGasLimit = String(gasLimit * mintAmount);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
-    setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
+    setFeedback(`Minting your ${CONFIG.NFT_NAME}... Please be patient. Sometimes it takes longer than usual due to congestion in the Polygon network.`);
     setClaimingNft(true);
     blockchain.smartContract.methods
       .mint(blockchain.account, mintAmount)
@@ -139,7 +139,7 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("Sorry, something went wrong please try again later. Or you can speed up you transaction by clicking your Metamask wallet and click on SPEED UP button.");
         setClaimingNft(false);
       })
       .then((receipt) => {
