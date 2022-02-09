@@ -139,7 +139,7 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later. Or you can speed up you transaction by clicking your Metamask wallet and click on SPEED UP button.");
+        setFeedback("Sorry, something went wrong please try again later. Or you can speed up your transaction by clicking your Metamask wallet and click on SPEED UP button.");
         setClaimingNft(false);
       })
       .then((receipt) => {
