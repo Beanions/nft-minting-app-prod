@@ -289,7 +289,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Excluding gas fees. Maximum mint amount is 50 per wallet.
+                  Excluding gas fees. <br>Maximum mint amount is 50 per wallet.</br>
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
