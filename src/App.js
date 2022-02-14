@@ -218,7 +218,7 @@ function App() {
               backgroundColor: "var(--accent)",
               padding: 10,
               borderRadius: 10,
-              border: "3px dashed var(--secondary)",
+             /// border: "3px dashed var(--secondary)",
               boxShadow: "2px 8px 18px 6px rgba(0,0,0,0.7)",
             }}
           >
